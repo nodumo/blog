@@ -10,11 +10,11 @@ tags: [Blog,Jekyll,jekyll-bootstrap-blog]
 
 ## New Features and Enhancements 
 
-Todey, `jekyll-bootstrap-blog` add an enhancement, that pages can excluded from top bar nav(See https://github.com/waylau/jekyll-bootstrap-blog/issues/3). It's very uesful to hide the page, but you can still visit it derictly by page's url.  
+Todey, `jekyll-bootstrap-blog` add an enhancement, that pages can excluded from top bar nav(See https://github.com/NickanorOdumo/jekyll-bootstrap-blog/issues/3). It's very uesful to hide the page, but you can still visit it derictly by page's url.  
 
 <!-- more -->
 
-The `jekyll-bootstrap-blog` is a theme for Jekyll to build a personal blog. See <https://github.com/waylau/jekyll-bootstrap-blog>
+The `jekyll-bootstrap-blog` is a theme for Jekyll to build a personal blog. See <https://github.com/NickanorOdumo/jekyll-bootstrap-blog>
 
 
 ### Page excluded from top bar nav
@@ -44,7 +44,7 @@ But, you can still visit it derictly by page's url:
 
 ## Demo
 
-You can see the theme running on [my blog](https://waylau.com/).
+You can see the theme running on [my blog](https://NickanorOdumo.com/).
 
 
 

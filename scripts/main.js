@@ -1,18 +1,18 @@
 /**
- * Created by waylau.com on 2015/4/19.
+ * Created by NickanorOdumo.com on 2015/4/19.
  */
 $(function(){
     NProgress.start();
 
-    $(window).scroll(function(){  //Ö»Òª´°¿Ú¹ö¶¯,¾Í´¥·¢ÏÂÃæ´úÂë
-        var scrollt = document.documentElement.scrollTop + document.body.scrollTop; //»ñÈ¡¹ö¶¯ºóµÄ¸ß¶È
-        if( scrollt >200 ){  //ÅÐ¶Ï¹ö¶¯ºó¸ß¶È³¬¹ý200px,¾ÍÏÔÊ¾
-            $("#goToTop").fadeIn(400); //µ­³ö
+    $(window).scroll(function(){  //Ö»Òªï¿½ï¿½ï¿½Ú¹ï¿½ï¿½ï¿½,ï¿½Í´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+        var scrollt = document.documentElement.scrollTop + document.body.scrollTop; //ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¸ß¶ï¿½
+        if( scrollt >200 ){  //ï¿½Ð¶Ï¹ï¿½ï¿½ï¿½ï¿½ï¿½ß¶È³ï¿½ï¿½ï¿½200px,ï¿½ï¿½ï¿½ï¿½Ê¾
+            $("#goToTop").fadeIn(400); //ï¿½ï¿½ï¿½ï¿½
         }else{
-            $("#goToTop").stop().fadeOut(400); //Èç¹û·µ»Ø»òÕßÃ»ÓÐ³¬¹ý,¾Íµ­Èë.±ØÐë¼ÓÉÏstop()Í£Ö¹Ö®Ç°¶¯»­,·ñÔò»á³öÏÖÉÁ¶¯
+            $("#goToTop").stop().fadeOut(400); //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ø»ï¿½ï¿½ï¿½Ã»ï¿½Ð³ï¿½ï¿½ï¿½,ï¿½Íµï¿½ï¿½ï¿½.ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½stop()Í£Ö¹Ö®Ç°ï¿½ï¿½ï¿½ï¿½,ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         }
     });
-    $("#goToTop").click(function(){ //µ±µã»÷±êÇ©µÄÊ±ºò,Ê¹ÓÃanimateÔÚ200ºÁÃëµÄÊ±¼äÄÚ,¹öµ½¶¥²¿
+    $("#goToTop").click(function(){ //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç©ï¿½ï¿½Ê±ï¿½ï¿½,Ê¹ï¿½ï¿½animateï¿½ï¿½200ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½,ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         $("html,body").animate({scrollTop:"0px"},200);
     });
     NProgress.done();

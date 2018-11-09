@@ -9,7 +9,7 @@ tags: [Blog,Jekyll,jekyll-theme-blog]
 ---
 
 
-A theme for Jekyll to build a personal blog. See[https://github.com/waylau/jekyll-theme-blog](https://github.com/waylau/jekyll-theme-blog)
+A theme for Jekyll to build a personal blog. See[https://github.com/NickanorOdumo/jekyll-theme-blog](https://github.com/NickanorOdumo/jekyll-theme-blog)
 
 ##Screenshots
 
@@ -19,7 +19,7 @@ A theme for Jekyll to build a personal blog. See[https://github.com/waylau/jekyl
 
 ##Demo
 
-You can see the theme running on [my blog](http://www.waylau.com/).
+You can see the theme running on [my blog](http://www.NickanorOdumo.com/).
 
 <!-- more -->
 
@@ -42,16 +42,16 @@ You can see the theme running on [my blog](http://www.waylau.com/).
 	blog:
 	    name:  Nickanor Odumo's Blog                                 # 博客名称
 	    description: 技术改变世界！                             # 博客描述
-	    title: Nickanor Odumo's Personal Site | www.waylau.com       # 网页标题
-	    url: http://www.waylau.com                            # 博客地址
-	    duoshuo:  waylau                                      # 多说ID
+	    title: Nickanor Odumo's Personal Site | www.NickanorOdumo.com       # 网页标题
+	    url: http://www.NickanorOdumo.com                            # 博客地址
+	    duoshuo:  NickanorOdumo                                      # 多说ID
 	    tongji: 28cf5fa48a599e39c5cc760931de942f              # 百度统计ID
 	author:
 	    name: Nickanor Odumo                                         # 作者名称
-	    email: waylau521@gmail.com                            # 邮箱地址
-	    weibo: http://weibo.com/waylau521                     # 微博地址
-	    github: https://github.com/waylau                     # GitHub地址
-	    twitter: https://twitter.com/waylau521                #twitter 地址
+	    email: NickanorOdumo521@gmail.com                            # 邮箱地址
+	    weibo: http://weibo.com/NickanorOdumo521                     # 微博地址
+	    github: https://github.com/NickanorOdumo                     # GitHub地址
+	    twitter: https://twitter.com/NickanorOdumo521                #twitter 地址
 	    logo:  /res/img/icon.png                              # logo地址
 
 ###Creating Posts

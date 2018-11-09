@@ -22,16 +22,16 @@ permalink: /about/
 
 ### Contact:
 
-* blog:[www.waylau.com](http://www.waylau.com)
-* gmail: [waylau521@gmail.com](mailto:waylau521@gmail.com)
-* weibo: [waylau521](http://weibo.com/waylau521)
-* twitter: [waylau521](https://twitter.com/waylau521)
+* blog:[www.NickanorOdumo.com](http://www.NickanorOdumo.com)
+* gmail: [NickanorOdumo521@gmail.com](mailto:NickanorOdumo521@gmail.com)
+* weibo: [NickanorOdumo521](http://weibo.com/NickanorOdumo521)
+* twitter: [NickanorOdumo521](https://twitter.com/NickanorOdumo521)
 * csdn: [kkkloveyou](http://blog.csdn.net/kkkloveyou)
-* oschina: [waylau](http://my.oschina.net/waylau)
+* oschina: [NickanorOdumo](http://my.oschina.net/NickanorOdumo)
 
 ### Open source:
 
-* Github : [waylau](https://github.com/waylau)
+* Github : [NickanorOdumo](https://github.com/NickanorOdumo)
 
 ----
 

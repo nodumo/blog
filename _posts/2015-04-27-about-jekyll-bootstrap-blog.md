@@ -9,7 +9,7 @@ tags: [Blog,Jekyll,jekyll-bootstrap-blog]
 ---
 
 
-A theme for Jekyll to build a personal blog. See[https://github.com/waylau/jekyll-bootstrap-blog](https://github.com/waylau/jekyll-bootstrap-blog)
+A theme for Jekyll to build a personal blog. See[https://github.com/NickanorOdumo/jekyll-bootstrap-blog](https://github.com/NickanorOdumo/jekyll-bootstrap-blog)
 
 ##Screenshots
 
@@ -19,7 +19,7 @@ A theme for Jekyll to build a personal blog. See[https://github.com/waylau/jekyl
 
 ##Demo
 
-You can see the theme running on [my blog](http://www.waylau.com/).
+You can see the theme running on [my blog](http://www.NickanorOdumo.com/).
 
 <!-- more -->
 
@@ -36,14 +36,14 @@ You can see the theme running on [my blog](http://www.waylau.com/).
 	# Site settings
 	title: Nickanor Odumo's Personal Site
 	name: Nickanor Odumo's Personal Site
-	url: "http://www.waylau.com"
-	email: waylau521@gmail.com
-	description: Nickanor Odumo's Personal Site | www.waylau.com.
+	url: "http://www.NickanorOdumo.com"
+	email: NickanorOdumo521@gmail.com
+	description: Nickanor Odumo's Personal Site | www.NickanorOdumo.com.
 	baseurl: "" # the subpath of your site, e.g. /blog/
-	twitter_username: waylau521
-	github_username:  waylau
-	weibo_username: waylau521
-	duoshuo_username: waylau
+	twitter_username: NickanorOdumo521
+	github_username:  NickanorOdumo
+	weibo_username: NickanorOdumo521
+	duoshuo_username: NickanorOdumo
 	baidushare_id: 89860593
 	baidutongji_id: 28cf5fa48a599e39c5cc760931de942f
 	rss_url: "/feed.xml"

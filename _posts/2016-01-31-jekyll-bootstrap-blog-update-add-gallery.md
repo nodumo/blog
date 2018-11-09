@@ -14,7 +14,7 @@ Todey, with the help of [Lightbox2](<https://github.com/lokesh/lightbox2/>), `je
 
 <!-- more -->
 
-The `jekyll-bootstrap-blog` is a theme for Jekyll to build a personal blog. See <https://github.com/waylau/jekyll-bootstrap-blog>
+The `jekyll-bootstrap-blog` is a theme for Jekyll to build a personal blog. See <https://github.com/NickanorOdumo/jekyll-bootstrap-blog>
 
 ## Screenshots
 
@@ -24,7 +24,7 @@ The `jekyll-bootstrap-blog` is a theme for Jekyll to build a personal blog. See 
 
 ## Demo
 
-You can see the theme running on [my blog](http://www.waylau.com/).
+You can see the theme running on [my blog](http://www.NickanorOdumo.com/).
 
 
 

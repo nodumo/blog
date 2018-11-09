@@ -1,23 +1,23 @@
-title: 柳伟卫的个人网站 Nickanor Odumo's Personal Site - 关注编程、系统架构、性能优化
-name: 柳伟卫的个人网站 Nickanor Odumo's Personal Site
-url: "http://NickanorOdumo.com"
-email: NickanorOdumo521@gmail.com
-description: 柳伟卫的个人网站 Nickanor Odumo's Personal Site - 关注编程、系统架构、性能优化 | NickanorOdumo.com
-baseurl: "" # the subpath of your site, e.g. /blog/
-twitter_username: NickanorOdumo521  # Twitter ID
-github_username:  NickanorOdumo # Github ID
-weibo_username: NickanorOdumo521  # Weibo ID
-facebook_username: NickanorOdumo521  # Facebook ID
-duoshuo_username: NickanorOdumo # Duoshuo ID
-baidushare_id: 89860593 #  百度分享 ID
-baidutongji_id: 28cf5fa48a599e39c5cc760931de942f # 百度统计 ID
-google-analytics_id: UA-50593531-1  # Google Analytics ID
-rss_url: "/feed.xml"  # RSS 订阅 URL
-logo_image: "/images/logo.png"  # LOGO 图片地址
-# Build settings
-gems: [jekyll-paginate]
+rss_url: "/feed.xml"
 markdown: rdiscount
-highlighter: pygments
-permalink: /:title/
+description: 柳伟卫的个人网站 Nickanor Odumo's Personal Site - 关注编程、系统架构、性能优化 | NickanorOdumo.com
+weibo_username: NickanorOdumo521
 paginate: 8
+duoshuo_username: NickanorOdumo
+logo_image: "/images/logo.png"
+baidutongji_id: 28cf5fa48a599e39c5cc760931de942f
+baseurl: ''
+twitter_username: NickanorOdumo521
 paginate_path: page/:num
+github_username: NickanorOdumo
+gems:
+- jekyll-paginate
+permalink: "/:title/"
+name: 柳伟卫的个人网站 Nickanor Odumo's Personal Site
+highlighter: pygments
+title: 柳伟卫的个人网站 Nickanor Odumo's Personal Site - 关注编程、系统架构、性能优化
+url: http://NickanorOdumo.com
+google-analytics_id: UA-50593531-1
+facebook_username: NickanorOdumo521
+baidushare_id: 89860593
+email: NickanorOdumo521@gmail.com

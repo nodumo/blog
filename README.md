@@ -1,11 +1,11 @@
 # jekyll-bootstrap-blog
 
-A theme for Jekyll to build a personal blog, based on [Bootstrap 3](http://getbootstrap.com/), [Font Awesome](http://fortawesome.github.io/Font-Awesome/) and [jQuery](http://jquery.com/).  
+A theme for Jekyll to build a personal blog, based on [Bootstrap 3](http://getbootstrap.com/), [Font Awesome](http://fortawesome.github.io/Font-Awesome/) and [jQuery](http://jquery.com/).
 
 * Clean
 * Responsive
 * Mobile First
-* Syntax Highlighting 
+* Syntax Highlighting
 * Jekyll 3 Supported
 * SEO Friendly
 
@@ -18,7 +18,6 @@ A theme for Jekyll to build a personal blog, based on [Bootstrap 3](http://getbo
 ## Demo
 
 You can see the theme running on [my blog](https://NickanorOdumo.com/).
-
 <!-- more -->
 
 ## Usage
@@ -47,7 +46,7 @@ duoshuo_username: NickanorOdumo
 baidushare_id: 89860593
 baidutongji_id: 28cf5fa48a599e39c5cc760931de942f
 rss_url: "/feed.xml"
-logo_image: "/images/logo.png"
+logo_image: "/images/logo.jpg"
 # Build settings
 gems: [jekyll-paginate]
 markdown: rdiscount
@@ -74,7 +73,7 @@ Add content below this and save the post in `_posts` directory (you will have to
 
 ### Page excluded from top bar nav
 
-By default, created pages will show on the top bar nav. If you want page excluded from top bar nav, you just add`excludedFromNav: true` in the page as below: 
+By default, created pages will show on the top bar nav. If you want page excluded from top bar nav, you just add`excludedFromNav: true` in the page as below:
 
 ```
 ---
@@ -89,5 +88,4 @@ excludedFromNav:true
 
 Feel free to fork and contribute to the project, just create a pull request.
 
-Open sourced under [MIT License](LICENSE) 
-
+Open sourced under [MIT License](LICENSE)

@@ -1,10 +1,10 @@
 rss_url: "/feed.xml"
 markdown: rdiscount
-description: 柳伟卫的个人网站 Nickanor Odumo's Personal Site - 关注编程、系统架构、性能优化 | NickanorOdumo.com
+description:  Nickanor Odumo's Personal Site - 关注编程、系统架构、性能优化 | NickanorOdumo.com
 weibo_username: NickanorOdumo521
 paginate: 8
 duoshuo_username: NickanorOdumo
-logo_image: "/images/logo.png"
+logo_image: "/images/logo.jpg"
 baidutongji_id: 28cf5fa48a599e39c5cc760931de942f
 baseurl: ''
 twitter_username: NickanorOdumo521
@@ -13,9 +13,9 @@ github_username: NickanorOdumo
 gems:
 - jekyll-paginate
 permalink: "/:title/"
-name: 柳伟卫的个人网站 Nickanor Odumo's Personal Site
+name:  Nickanor Odumo's Personal Site
 highlighter: pygments
-title: 柳伟卫的个人网站 Nickanor Odumo's Personal Site - 关注编程、系统架构、性能优化
+title:  Nickanor Odumo's Personal Site - 关注编程、系统架构、性能优化
 url: http://NickanorOdumo.com
 google-analytics_id: UA-50593531-1
 facebook_username: NickanorOdumo521

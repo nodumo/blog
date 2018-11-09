@@ -4,21 +4,20 @@ title: About
 permalink: /about/
 ---
 
-## 关于作者
+## Programming
 
 ### Specialties:
 
-* J2EE web programming development.
-* Flex/AS3 programming development.
-* HTML5/JS/CSS/SVG programming development.
+* Web technologies (HTML, CSS, JS).
+* Functional Programming.
+* Domain Driven Design.
 * Self-educated/Self-training.
 
 ### Hobby:
 
-* Riding mountain bike.
-* Go travelling far away.
-* Watching science-fiction movies.
-* Learning English.
+* Programming.
+* High-End Audio.
+* Weight-lifting.
 
 ### Contact:
 
@@ -31,7 +30,7 @@ permalink: /about/
 
 ### Open source:
 
-* Github : [NickanorOdumo](https://github.com/NickanorOdumo)
+* Github : [NickanorOdumo](https://github.com/nodumo)
 
 ----
 

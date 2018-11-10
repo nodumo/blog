@@ -10,7 +10,7 @@ tags: [CategoryTheory, Scala, FunctionalProgramming]
 
 ![](/images/post/category_theory_pigs.jpg)
 
-## Category theory for Functional Programming?
+### Category theory for Functional Programming?
 
 Foundational mathematics for programming? What for!?
 
@@ -81,8 +81,17 @@ def arrow(a: SetOfVals1): SetOfVals2 = ???
 
 // ----- Bad functions
 
-// Return exception
+// Return exception / Bottom
 def arrow(a: SetOfVals1): SetOfVals2 = throw new Exception("Boom!")
+
+// Return undefined / Bottom
+def arrow(a: SetOfVals1): SetOfVals2 = throw new Exception("Boom!")
+
+// Doesn't halt/ No-Bottom /  Non-total
+def arrow(a: SetOfVals1): SetOfVals2 =  a match  {
+  case a if false =>  SetOfVals2
+  case _  => arrow(a)
+}
 
 ```
 
@@ -94,3 +103,34 @@ Effects are an abstract computational concept.
 - **Disjuctions**: Computation that produces the disjuction of two values(ex: None or Some(b):Either[A,B])
 - **Optionality**: Computation that produces the dysjuction of two values(ex: Left(a) or Right(b):Either[A,B])
 - **Partiality**: Computations that are non-total.
+
+### Algebraic Geometry
+
+Effects are an abstract computational concept.
+
+```scala
+
+import scala.language.higherKinds
+
+trait Functor[F[_]] {
+  def map[A, B](a: F[A])(f: A => B): F[B]
+}
+
+object Functor {
+  def apply[F[_]: Functor]: Functor[F] =
+    implicitly[Functor[F]]
+
+  implicit def ListFunctor: Functor[List] = new Functor[List] {
+    def map[A, B](a: List[A])(f: A => B): List[B] = a map f
+  }
+
+  implicit def OptionFunctor: Functor[Option] = new Functor[Option] {
+    def map[A, B](a: Option[A])(f: A => B): Option[B] = a map f
+  }
+
+  implicit def Tuple2Functor[A1]: Functor[({type f[x] = (A1, x)})#f] = new Functor[({type f[x] = (A1, x)})#f] {
+    def map[A, B](a: (A1, A))(f: A => B): (A1, B) = (a._1, f(a._2))
+  }
+}
+
+```

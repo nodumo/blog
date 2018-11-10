@@ -4,9 +4,11 @@ title: Category theory for functional programming
 date: 2018-11-09 7:10
 author: Nickanor Odumo
 comments: false
-categories: [Category]
-tags: [Category]
+categories: [CategoryTheory]
+tags: [CategoryTheory, Scala, FunctionalProgramming]
 ---
+
+![](/images/post/category_theory_pigs.jpg)
 
 ## Category theory for Functional Programming?
 
@@ -22,7 +24,7 @@ Category can be distilled to the concepts of Objects and Morphisms:
 
 - • A category contains objects which can represent a multitude of entities.
 - • A category containsMorphisms represent the relationships between different categories.
-- • A category is bound by compositional rules governerning implicit rules like the identity morphisms or the compositional laws.
+- • A category is bound by compositional rules governerning composition and rules governing identity.
 
 ```scala
 
@@ -42,12 +44,26 @@ final case objects SV3_1 extends extends SetOfVals3
 // Morphisms
 def arrow(a: SetOfVals1): SetOfVals2
 
+// Two Morphisms
+def arrow1To2(a: SetOfVals1): SetOfVals2 = SV2_1 // A -> B
+def arrow2To3(a: SetOfVals2): SetOfVals3 = SV3_1 // B -> C
+
+// Axiomatic Morphism
+// A -> B -> C
+def arrow1To3(a: SetOfVals1): SetOfVals3 = arrow2To3(arrow1To2(a)) // ∴  (arrow1To2 . arrow2To3)
+
 ```
 Now, as you see ,the `labs` page was excluded from top bar nav:
 
 ### Mathematical reasoning
 
+- **Referential transparency**
+- **Purity**: Black box function that returns same value for same input.
+- **Equationl Reasoning**: Subsitutable values of the function and value variety.
+
 ### Mathematical functions in programming languages
+
+Category gives us a framework for thinking about functions.
 
 ```scala
 
@@ -68,7 +84,13 @@ def arrow(a: SetOfVals1): SetOfVals2 = ???
 // Return exception
 def arrow(a: SetOfVals1): SetOfVals2 = throw new Exception("Boom!")
 
-// Return bottom
-def arrow(a: SetOfVals1): SetOfVals2 = null
-
 ```
+
+### Effects
+
+Effects are an abstract computational concept.
+
+- **Async**: Computation that will yield value at a later time.
+- **Disjuctions**: Computation that produces the disjuction of two values(ex: None or Some(b):Either[A,B])
+- **Optionality**: Computation that produces the dysjuction of two values(ex: Left(a) or Right(b):Either[A,B])
+- **Partiality**: Computations that are non-total.

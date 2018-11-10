@@ -48,7 +48,7 @@ You can see the theme running on [my blog](http://www.NickanorOdumo.com/).
 	    tongji: 28cf5fa48a599e39c5cc760931de942f              # 百度统计ID
 	author:
 	    name: Nickanor Odumo                                         # 作者名称
-	    email: NickanorOdumo521@gmail.com                            # 邮箱地址
+	    email: odumowebdev@gmail.com                            # 邮箱地址
 	    weibo: http://weibo.com/NickanorOdumo521                     # 微博地址
 	    github: https://github.com/NickanorOdumo                     # GitHub地址
 	    twitter: https://twitter.com/NickanorOdumo521                #twitter 地址

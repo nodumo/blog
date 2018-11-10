@@ -8,13 +8,13 @@ categories: [Blog,Jekyll]
 tags: [Blog,Jekyll,jekyll-bootstrap-blog]
 ---
 
-## New Features and Enhancements 
+## New Features and Enhancements
 
 Todey, with the help of [Lightbox2](<https://github.com/lokesh/lightbox2/>), `jekyll-bootstrap-blog` add a **Gallery** page  used to overlay images on top of the current page. It's a snap to setup and works on all modern browsers.
 
 <!-- more -->
 
-The `jekyll-bootstrap-blog` is a theme for Jekyll to build a personal blog. See <https://github.com/NickanorOdumo/jekyll-bootstrap-blog>
+The `Theme` is a theme for Jekyll to build a personal blog. See <https://github.com/NickanorOdumo/blog>
 
 ## Screenshots
 
@@ -25,8 +25,3 @@ The `jekyll-bootstrap-blog` is a theme for Jekyll to build a personal blog. See 
 ## Demo
 
 You can see the theme running on [my blog](http://www.NickanorOdumo.com/).
-
-
-
-
-

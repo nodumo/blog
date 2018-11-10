@@ -35,7 +35,7 @@ You can see the theme running on [my blog](https://NickanorOdumo.com/).
 title: Nickanor Odumo's Personal Site
 name: Nickanor Odumo's Personal Site
 url: "http://www.NickanorOdumo.com"
-email: NickanorOdumo521@gmail.com
+email: odumowebdev@gmail.com
 description: Nickanor Odumo's Personal Site | www.NickanorOdumo.com.
 baseurl: "" # the subpath of your site, e.g. /blog/
 twitter_username: NickanorOdumo521
